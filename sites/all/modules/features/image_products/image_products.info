@@ -1,0 +1,11 @@
+name = Image Products
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = image_products
+dependencies[] = features
+dependencies[] = image
+features[features_api][] = api:2
+features[field_base][] = field_product_image
+features[field_instance][] = commerce_product-product-field_product_image
+project path = sites/all/modules/features
